@@ -1,0 +1,13 @@
+Test Scenario: XSS u search polju
+Test Steps:
+1. Idi na https://demoqa.com/books  
+2. U search polje unesi: <script>alert('XSS')</script>
+
+Očekivano ponašanje:
+- NE treba pojaviti JavaScript alert prozor
+- Treba prikazati "No rows found" ili poruku o nevalidnom unosu
+
+Stvarno ponašanje:
+Aplikacija prikazuje poruku "No rows found" i praznu listu
+
+Test Prolazi/Pada: PASS

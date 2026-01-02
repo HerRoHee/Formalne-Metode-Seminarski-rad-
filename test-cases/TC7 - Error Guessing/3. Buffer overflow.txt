@@ -1,0 +1,16 @@
+Test Scenario: Predugačak unos u search polje
+Test Steps:
+1. Idi na https://demoqa.com/books  
+2. Otvori developer tools i selektiraj search box element
+3. Otvori 'Console' prozor i ukucaj: 
+	document.querySelector('#searchBox').value = 'a'.repeat(200);
+
+
+Očekivano ponašanje:
+- NE treba pojaviti JavaScript alert prozor
+- Treba prikazati "No rows found" ili poruku o nevalidnom unosu
+
+Stvarno ponašanje:
+Aplikacija prikazuje poruku "No rows found" i praznu listu
+
+Test Prolazi/Pada: PASS

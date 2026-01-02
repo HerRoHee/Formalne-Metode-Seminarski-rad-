@@ -1,0 +1,13 @@
+Test Scenario: Pretraga ne radi dosljedno za velika/mala slova
+Test Steps:
+1. Idi na https://demoqa.com/books  
+2. U search box ukucaj JavaScript zatim JAVASCRIPT i na kraju jAVAsCRIPT
+
+
+Očekivano ponašanje:
+- Aplikacija treba za svaki od navedenih inputa prikazati istu listu 
+
+Stvarno ponašanje:
+Aplikacija prikazuje istu listu za svaki navedeni input
+
+Test Prolazi/Pada: PASS

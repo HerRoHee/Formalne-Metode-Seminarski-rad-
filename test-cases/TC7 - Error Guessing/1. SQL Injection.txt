@@ -1,0 +1,15 @@
+Test Scenario: SQL Injection u search polju
+Test Steps:
+1. Idi na https://demoqa.com/books
+2. U search polje unesi: ' OR '1'='1
+3. Pritisni Enter ili klikni na search ikonicu
+
+Očekivano ponašanje:
+- Aplikacija treba prikazati poruku "No rows found" ili praznu listu
+- NE treba prikazati sve knjige iz baze
+- NE treba prikazati SQL grešku u UI-u
+
+Stvarno ponašanje:
+Aplikacija je prikazala poruku "No rows found" i praznu listu
+
+Test Prolazi/Pada: PASS
