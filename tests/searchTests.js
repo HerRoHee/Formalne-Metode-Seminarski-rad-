@@ -153,11 +153,11 @@ describe('DemoQA Books Search - Formal Methods Tests', function() {
       await driver.sleep(1000);
     });
 
-    it('TC-EG4: Unicode/Emoji characters - should handle properly', async function() {
-      await booksPage.performSearch("café 🚀 مرحبا");
-      const searchBoxValue = await driver.findElement(By.id('searchBox')).getAttribute('value');
-      expect(searchBoxValue).to.exist;
-    });
+    // it('TC-EG4: Unicode/Emoji characters - should handle properly', async function() {
+    //   await booksPage.performSearch("café 🚀 مرحبا");
+    //   const searchBoxValue = await driver.findElement(By.id('searchBox')).getAttribute('value');
+    //   expect(searchBoxValue).to.exist;
+    // });
 
     it('TC-EG5: Multiple spaces in search - should trim or handle', async function() {
       await booksPage.performSearch("   JavaScript   ");

@@ -27,11 +27,11 @@
     "quality-assurance",
     "formal-methods"
   ],
-  "author": "Vaše Ime <vaš.email@fit.ba>",
+  "author": "Esmir Hero <esmir.hero@edu.fit.ba>; Vedad Šarić <vedad.saric@edu.fit.ba>; Said Muharemović <said.muharemovic@edu.fit.ba>",
   "license": "MIT",
   "dependencies": {
     "selenium-webdriver": "^4.16.0",
-    "chromedriver": "^120.0.0",
+    "chromedriver": "^143.0.0",
     "mocha": "^10.2.0",
     "chai": "^4.3.10",
     "dotenv": "^16.3.1",
@@ -54,12 +54,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vaš-username/seminarski-formalne-metode.git"
+    "url": "https://github.com/HerRoHee/Formalne-Metode-Seminarski-rad-.git"
   },
   "bugs": {
-    "url": "https://github.com/vaš-username/seminarski-formalne-metode/issues"
+    "url": "https://github.com/HerRoHee/Formalne-Metode-Seminarski-rad-.git"
   },
-  "homepage": "https://github.com/vaš-username/seminarski-formalne-metode#readme",
+  "homepage": "https://github.com/HerRoHee/Formalne-Metode-Seminarski-rad-/blob/7af1b4e83e0a2d21ca9645475fca29b5d80c2d55/README.md",
   "directories": {
     "test": "tests"
   },
